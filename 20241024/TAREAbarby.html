@@ -21,6 +21,40 @@
     AYUDA:al validar la edad hacerlo con el sig segmento -> if (varEdad > "21")
 
     */
+
+//variable para almacenar el nombre
+var nombrebar ;
+
+//solicitar el nombre
+nombrebar = prompt("ingrese su nombre")
+
+//saludarlo
+
+alert(`Hola ${nombrebar} ,¿cómo estás?`);
+document.write("hola " + nombrebar + ",¿cómo estás?")
+   
+
+
+   //variable para almacenar la edad
+    var edad;
+    edad = 22
+    
+
+//solicitar el nombre
+edad = prompt("Ingrese su edad")
+
+if (edad > 18) {
+    alert(`${nombrebar} tiene ${edad} años, puede ingresar sin problemas`);
+    console.log(`${nombrebar} tiene ${edad} años, puede ingresar sin problemas`);
+} else {
+    console.log(`${nombrebar} es menor de edad, no puede ingresar al salon`);
+    alert(`${nombrebar} es menor de edad, no puede ingresar al salon`);
+}
+
+ 
+
+
+
 </script>
 
 
