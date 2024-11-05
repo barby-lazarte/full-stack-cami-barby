@@ -6,6 +6,31 @@
     <title>Document</title>
 </head>
 <body>
+<style>
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: rgb(94, 159, 232) 2px 2px, rgb(94, 159, 232) -2px -2px;
+    width: 60px;
+    height: 60px;
+        color: magenta;
+        display: flex;
+        align-items: center;
+            justify-content: center;
+
+        
+}
+body{
+    background-color: lightcyan ;
+    display: grid;
+            align-items: center;
+            justify-content: center;
+
+}
+
+
+
+</style>
+
     
 </body>
 <script>
@@ -20,6 +45,25 @@ Ayuda 2)Ahora van a tener que usar estructura IF dentro de FOR.
 recordar: la etiqueta <style> debe estar dentro de <head>
 
 */
+
+var num1 = prompt("ingrese el 1er numero") ;
+var num2 = prompt("ingrese el 2do numero") ;
+
+for (let index = num1 ; index <= num2; index++) {
+
+
+
+     if (index % 2 == 0 ) {
+        document.write(`<h1>${index}</h1>`)
+     }
+
+
+
+
+    
+}
+
+
 
 </script>
 
